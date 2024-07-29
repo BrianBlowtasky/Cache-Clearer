@@ -1,28 +1,47 @@
-Cache Clearer Addon
-Overview
-Cache Clearer is a Firefox addon designed to automatically clear your browser cache every 30 minutes. This helps improve browser performance and ensures that you are always viewing the most up-to-date content.
+# Cache Clearer Addon for Firefox
 
-Features
+![Cache Clearer Icon](icon.png)
 
-    Automatic Cache Clearing: Clears browser cache every 30 minutes without any manual intervention.
-    Lightweight: Minimal impact on browser performance.
-    Simple Setup: Easy to install and use.
+## Overview
 
-Installation
+Cache Clearer is a lightweight Firefox addon designed to automatically clear your browser cache every 30 minutes. This simple tool helps improve browser performance and ensures you're always viewing the most up-to-date content.
 
-    Clone the Repository:
+## Features
 
-    text
-    git clone https://github.com/yourusername/cache-clearer-addon.git
+- 🕒 **Automatic Clearing**: Clears browser cache every 30 minutes
+- 🚀 **Performance Boost**: Helps maintain browser speed and efficiency
+- 🪶 **Lightweight**: Minimal impact on browser performance
+- 🔧 **Simple Setup**: Easy to install and use
 
-    Load the Addon in Firefox:
-        Open Firefox and navigate to about:debugging#/runtime/this-firefox.
-        Click on "Load Temporary Add-on".
-        Select the manifest.json file from the cloned repository.
+## Installation
 
-Usage
-Once installed, the addon will automatically clear your cache every 30 minutes. You can verify its operation by checking the browser console for the "Cache cleared" message.
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-License
-This project is licensed under GPL v3. 
+1. Clone this repository:
+
+`git clone https://github.com/yourusername/cache-clearer-addon.git`
+
+2. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
+3. Click on "Load Temporary Add-on"
+4. Select the `manifest.json` file from the cloned repository
+
+## Usage
+
+Once installed, the addon works automatically in the background. You can verify its operation by checking the browser console for the "Cache cleared" message every 30 minutes.
+
+## Files
+
+- `manifest.json`: Addon configuration
+- `background.js`: Core functionality
+- `icon.png`: Addon icon (48x48 pixels)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
+
+## Disclaimer
+
+This addon does not collect or store any personal data. It simply clears the browser cache at regular intervals.
+
