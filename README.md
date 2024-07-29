@@ -18,7 +18,7 @@ Cache Clearer is a lightweight Firefox addon designed to automatically clear you
 1. Clone this repository: `git clone https://github.com/yourusername/cache-clearer-addon.git`
 2. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
 3. Click on "Load Temporary Add-on"
-4. Select the `manifest.json` file from the cloned repository
+4. Select the `cache-clearer-addon.zip` file from the cloned repository
 
 ## Usage
 
