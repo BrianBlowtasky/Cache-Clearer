@@ -1,6 +1,7 @@
 Cache Clearer Addon
 Overview
 Cache Clearer is a Firefox addon designed to automatically clear your browser cache every 30 minutes. This helps improve browser performance and ensures that you are always viewing the most up-to-date content.
+
 Features
 
     Automatic Cache Clearing: Clears browser cache every 30 minutes without any manual intervention.
